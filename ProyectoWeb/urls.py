@@ -23,4 +23,5 @@ urlpatterns = [
     path('', include('ProyectoWebApp.urls')), #para enlazar las urls con los diferentes proyectos o subcarpetas 
     path('servicios/', include('servicios.urls')),
     path('blog/', include('blog.urls')),
+    path('contacto/', include('contacto.urls')),
 ]
